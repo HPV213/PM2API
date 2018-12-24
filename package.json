@@ -1,0 +1,23 @@
+{
+  "name": "pm2api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pm2": "^2.6.1",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.4.0",
+    "jquery": "^3.3.1"
+  },
+  "author": "Viethp",
+  "license": "ISC"
+}
